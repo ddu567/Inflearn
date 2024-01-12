@@ -23,7 +23,7 @@ public class ScannerWhileEx4 {
                 System.out.print("구매 수량을 입력하세요: ");
                 int quantity = scanner.nextInt();
 
-                totalCost = price * quantity;
+                totalCost += price * quantity;
 
                 System.out.println("상품명:" + name + " 가격:" + price + " 수량:" + quantity + " 합계:" + totalCost);
             } else if (option == 2) {
